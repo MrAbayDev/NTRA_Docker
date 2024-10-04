@@ -2,18 +2,18 @@
 
 namespace Database\Seeders;
 
-use App\Models\Ad;
+use App\Models\Branch;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
-class PostSeeder extends Seeder
+class BranchSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        Ad::factory()
+        Branch::factory()
             ->count(5)
             ->create();
     }
