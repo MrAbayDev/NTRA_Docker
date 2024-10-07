@@ -14,7 +14,7 @@ class BranchSeeder extends Seeder
     public function run(): void
     {
         Branch::factory()
-            ->count(5)
+            ->count(7)
             ->create();
     }
 }
